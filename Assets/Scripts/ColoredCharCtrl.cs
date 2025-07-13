@@ -25,6 +25,7 @@ namespace Assets.Scripts
 
         protected void TurnRed()
         {
+                                                       // red is a *static* attribute 
             GetComponent<Renderer>().material.color = Color.red;
         }
 
